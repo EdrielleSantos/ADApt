@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <p>Cadastre-se</p>
+        <form action="" method="POST">
+            <input class="nome" type="text" placeholder="Nome">
+
+            <input class="email" type="email" placeholder="E-mail">
+
+            <input class="senha" type="password" placeholder="Crie sua senha">
+
+            <input class="csenha" type="password" placeholder="Confirme sua senha">
+        </form>
+
+        <div class="interesse">
+            <label class="opcao" for="opcao">Escolha uma opção de interesse:</label>
+            <div class="select">
+                <select>
+                    <option value="empresa">Empresa de apoio ao PCD</option>
+                    <option value="deficiente">Pessoa com deficiência</option>
+                    <option value="ajudar">Quero ajudar e/ou visualizar</option>
+                </select>
+
+                <!-- EXEMPLO -->
+                <!-- <select id="input-linguagem" class="input-linguagem">
+                    <option value="javascript">JavaScript</option>
+                    <option value="html">HTML5</option>
+                    <option value="css">CSS3</option>
+                </select> -->
+            </div>
+        </div>
+
+        <div class="aceitar">
+            <div>
+                <input type="checkbox">
+                <label>Ao selecionar o botão ao lado, você concorda em respeitar as regras de acessibilidade e em respeitar todas as pessoas e público desse canal.</label>
+            </div>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </div>
+</body>
+</html>
